@@ -42,6 +42,9 @@ int main() {
     pibpercapita1 = pib1 / populacao1;
     superpoder1 = (float)populacao1 + area1 + pib1 + pontos1 + pibpercapita1 + (1.0f / densidade1);
 
+
+//----- RESULTADO DA CARTA NUMERO 1 ----- 
+
 printf("CARTA NUMERO 1 \n") ;
 printf("estado: %s \n", estado1) ;
 printf("Codigo da carta: %s \n", codigo1);
@@ -88,7 +91,7 @@ printf("PIB per Capita: %2.f reais \n", pibpercapita1) ;
     pibpercapita2 = pib2 / populacao2;
     superpoder2 = (float)populacao2 + area2 + pib2 + pontos2 + pibpercapita2 + (1.0f / densidade2);
 
-
+//---- RESULTADO DA CARTA NUMERO 2 -----
 printf("CARTA NUMERO 2 \n") ;
 printf("estado: %s \n", estado2) ;
 printf("Codigo da carta: %s \n", codigo2);
